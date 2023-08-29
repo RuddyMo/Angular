@@ -8,10 +8,11 @@ import { TaskComponent } from './task/task.component';
 import { MainTaskComponent } from './main-task/main-task.component';
 import { FormatDatePipe } from './format-date.pipe';
 import { TaskModule } from './task/task.module';
+import { AddTaskFormModule } from './add-task-form/add-task-form.module';
 
 @NgModule({
   declarations: [AppComponent, HelloWorldComponent],
-  imports: [BrowserModule, AppRoutingModule, TaskModule],
+  imports: [BrowserModule, AppRoutingModule, TaskModule, AddTaskFormModule],
   providers: [],
   bootstrap: [AppComponent],
 })
