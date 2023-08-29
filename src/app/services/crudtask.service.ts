@@ -14,6 +14,7 @@ export class CRUDTaskService {
       date: '2023-06-05',
       etat: State.EN_COURS,
     });
+
     task.push({
       titre: 'Manger',
       description: 'Pâtes',
