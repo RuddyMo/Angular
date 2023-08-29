@@ -15,6 +15,7 @@ export class MainTaskComponent {
     this.task.push({
       titre: 'Steph',
       description: 'Voici Stéphane',
+      date: '2023-08-28',
       etat: State.EN_COURS,
     });
 

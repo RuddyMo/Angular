@@ -8,12 +8,12 @@ export class FormatDatePipe implements PipeTransform {
     const date = new Date(value);
     if (!isNaN(date.getTime())) {
       const day = this.pad(date.getDate());
-      const month = this.pad(date.getMonth() + 1); // Months are zero-based
+      const month = this.pad(date.getMonth() + 1);
       const year = date.getFullYear();
 
       return `${day}-${month}-${year}`;
     }
-    return value; // if the date is invalid, return the original value
+    return value; 
   }
 
   private pad(num: number): string {

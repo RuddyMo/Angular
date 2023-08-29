@@ -7,20 +7,12 @@ import { HelloWorldComponent } from './hello-world/hello-world.component';
 import { TaskComponent } from './task/task.component';
 import { MainTaskComponent } from './main-task/main-task.component';
 import { FormatDatePipe } from './format-date.pipe';
+import { TaskModule } from './task/task.module';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    HelloWorldComponent,
-    TaskComponent,
-    MainTaskComponent,
-    FormatDatePipe
-  ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  declarations: [AppComponent, HelloWorldComponent],
+  imports: [BrowserModule, AppRoutingModule, TaskModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
 export class AppModule { }
