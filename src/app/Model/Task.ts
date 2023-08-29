@@ -4,4 +4,5 @@ export class Task {
     titre? : string;
     description? : string;
     etat? : State;
+    date? : string;
 }

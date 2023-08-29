@@ -12,3 +12,6 @@ compodoc : 1.1.21
 ng serve
 ng build -> Création du rep dist/task-manager (compilation du projet)
 yarn add --dev @compodoc/compodoc
+ng generate c Task
+ng generate c main-task
+ng generate pipe formatDate

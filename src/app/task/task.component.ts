@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { Task } from '../Model/Task';
 import { State } from '../Model/state';
 
@@ -8,9 +8,5 @@ import { State } from '../Model/state';
   styleUrls: ['./task.component.scss']
 })
 export class TaskComponent {
-  task:Task={
-    titre : 'Livre Jean',
-    description : 'C\'est un livre qui parle des annimaux',
-    etat : State.EN_COURS,
-  };
+  @Input() task: Array <Task> = new Array<Task>();
 }
