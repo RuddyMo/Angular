@@ -1,3 +1,7 @@
+lien du repository github :
+
+https://github.com/RuddyMo/Angular/tree/master
+
 # VERSION
 
 node js : 18.12.0
@@ -9,9 +13,9 @@ compodoc : 1.1.21
 
 # COMMANDES
 
-ng serve
-ng build -> Création du rep dist/task-manager (compilation du projet)
-yarn add --dev @compodoc/compodoc
-ng generate c Task
-ng generate c main-task
+ng serve,
+ng build -> Création du rep dist/task-manager (compilation du projet),
+yarn add --dev @compodoc/compodoc,
+ng generate c Task,
+ng generate c main-task,
 ng generate pipe formatDate
